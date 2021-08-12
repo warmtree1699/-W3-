@@ -1,0 +1,55 @@
+.bg-black{
+    background-color: #000;
+}
+.location{
+    .test{
+        display: block;
+        background-color: #000;
+        height: 67px;
+        text-align: center;
+        margin: auto 0;
+    }
+    .title{
+        border-left: 10px solid #aa0601;
+        height: 48px;
+    }
+    .card-item{
+        width: 30%;
+        margin-bottom: 100px;
+        img{
+            width: 350px;
+            height: 224px;
+        }
+        a{
+            padding: 20px 0;
+        }
+    }
+    .card-title{
+        border-bottom: 1px solid #00000020;
+        font-size: 24px;
+    }
+    .card-content span{
+        width: 22px;
+        height: 34px;
+    }
+    select{
+        width: 300px;
+        height: 30px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 840px;
+        margin: 0 auto;
+    }
+    .location{
+        .card-item{
+            width: 48%;
+            img{
+                width: 330px;
+                height: 164px;
+            }
+        }
+    }
+}
+
