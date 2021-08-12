@@ -375,8 +375,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-flex-line-pack: justify;
-      align-content: space-between;
-  border: 1px solid #fff; }
+      align-content: space-between; }
   .card-content small {
     font-size: 14px;
     color: #707070; }
@@ -403,8 +402,6 @@ img {
   border: none; }
 
 @media (max-width: 992px) {
-  .container {
-    max-width: 720px; }
   .banner-text h1 {
     font-size: 48px; }
   .banner-text span {
@@ -413,7 +410,8 @@ img {
     padding-top: 40px;
     padding-bottom: 56px; }
     .intro li {
-      width: 48%; }
+      width: 48%;
+      margin-bottom: 57px; }
   .classic {
     padding-top: 40px;
     padding-bottom: 56px; }
@@ -515,20 +513,35 @@ img {
       margin-right: 0;
       margin-bottom: 16px; }
   .card .card-item {
-    width: 100%; } }
+    width: 100%;
+    margin-bottom: 160px; } }
 
 .bg-black {
   background-color: #000; }
+
+.location .test {
+  display: block;
+  background-color: #000;
+  height: 67px;
+  text-align: center;
+  margin: auto 0; }
 
 .location .title {
   border-left: 10px solid #aa0601;
   height: 48px; }
 
 .location .card-item {
-  width: 30%; }
+  width: 30%;
+  margin-bottom: 100px; }
+  .location .card-item img {
+    width: 350px;
+    height: 224px; }
+  .location .card-item a {
+    padding: 20px 0; }
 
 .location .card-title {
-  border-bottom: 1px solid #00000020; }
+  border-bottom: 1px solid #00000020;
+  font-size: 24px; }
 
 .location .card-content span {
   width: 22px;
@@ -538,8 +551,14 @@ img {
   width: 300px;
   height: 30px; }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+  .container {
+    max-width: 840px;
+    margin: 0 auto; }
   .location .card-item {
-    width: 100%; } }
+    width: 48%; }
+    .location .card-item img {
+      width: 330px;
+      height: 164px; } }
 
 /*# sourceMappingURL=all.css.map */
